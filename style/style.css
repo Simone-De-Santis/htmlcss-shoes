@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
-    scroll-behavior: smooth;
 }
-
+html{
+    scroll-behavior: smooth;
+    
+}
 
 .full-page{
     height: 100vh;
@@ -32,10 +34,6 @@
     transform: translate(-50%, -50%) ;
     text-align: center;
 }
-
-
-
-
 #main-menu{
     z-index: 1;
     position: fixed;
@@ -52,12 +50,12 @@
 #main-menu a{
     background-color: white;
     padding: 10px 15px;
-    display: inline-block;
     margin: 10px;
     border-radius: 50%;
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    display: inline-block;
 }
 #main-menu a:hover{
     color: white;
@@ -65,8 +63,9 @@
     transform: scale(1.8);
 }
 #main-menu a:active{
-        transform: scale(1.5);
-        color: darkred;
-        background-color: goldenrod;
+    transform: scale(1.5);
+    color: darkred;
+    background-color: goldenrod;
 }
 
+                                                                                                                
